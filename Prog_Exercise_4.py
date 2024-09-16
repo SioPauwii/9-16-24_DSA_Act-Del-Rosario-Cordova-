@@ -1,4 +1,4 @@
-NumOfMins = [5, 2, 5]
+NumOfMins = [1, 2, 3, 4]
 
 newStr = ''.join(map(str, NumOfMins))
 

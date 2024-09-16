@@ -10,4 +10,5 @@ def printPerms(string, lenOfString):
 str1 = input('Enter the string to find all possible permutation: ')
 
 print(f'The given string is: {str1}')
-print(f'The permuted strings are: {printPerms(str1, len(str1))}')
+print('The permuted strings are: ')
+printPerms(str1, len(str1))
